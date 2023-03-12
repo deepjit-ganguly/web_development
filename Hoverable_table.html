@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;800&display=swap">
+	<title> my table</title>
+
+	<style>
+		body{
+			padding: 0;
+			margin: 0;
+			font-family: verdana,geneva,tahoma,sans-serif;
+			
+		}
+
+		table{
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			transform: translate(-50%,-50%);
+			width: 800px;
+			height: 200px;
+			border: 1px solid #bdc3c7;
+			box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+
+		}
+
+		tr{
+			transition: all.2s ease-in;
+			cursor: pointer;
+		}
+
+		th,td{
+			padding: 12px;
+			text-align: left;
+			border-bottom: 1px solid #ddd;
+		}
+
+		#header{
+			background-color: black;
+			color: #fff;
+
+		}
+
+		h1{
+			font-weight: 600;
+			text-align: center;
+			background-color: black;
+			color: #fff;
+			padding: 10px 0px;
+		}
+
+		tr:hover{
+			background-color: #ff5f5f5;
+			transform: scale(1.02);
+			border-bottom: 1px solid #ddd;
+			box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2),-1px -1px 8px rgba(0, 0, 0, 0.2);
+
+		}
+
+
+	</style>
+</head>
+<body>
+	<table>
+	<h1>HOVERABLE TABLE</h1>
+	<hr>
+	<tr id="header">
+		<th>FIRST NAME</th>
+		<th>LAST NAME</th>
+		<th>AGE</th>
+		<th>COUNTRY</th>
+		<th>GENDER</th>
+    </tr>
+    
+
+
+    <tr>
+    	<td>Deepjit</td>
+    	<td>Ganguly</td>
+    	<td>18</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+    
+    <tr>
+    	<td>Alok</td>
+    	<td>Kumar</td>
+    	<td>21</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+    <tr>
+    	<td>Harsh</td>
+    	<td>Choudhary</td>
+    	<td>19</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+    <tr>
+    	<td>Nishant</td>
+    	<td>kouranga</td>
+    	<td>18</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+    <tr>
+    	<td>akash</td>
+    	<td>yadav</td>
+    	<td>18</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+    <tr>
+    	<td>Satya</td>
+    	<td>Singh</td>
+    	<td>20</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+
+    <tr>
+    	<td>Utkarsh</td>
+    	<td>Sonkar</td>
+    	<td>19</td>
+    	<td>india</td>
+    	<td>male</td>
+    </tr>
+
+
+	</table>
+</body>
+</html>
